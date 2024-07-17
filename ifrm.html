@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="first">
+        <span style="background-color:#C5E3C7;color: black;font-size: larger;" ><b>overloading when number of arguments vary</b></span> 
+        <img src="ex1.png" width="550px" height="800px" >
+        <img src="op1.png" >
+    </section>
+    <section id="sec">
+        <span style="background-color:#C5E3C7;color: black;font-size: larger;" ><b>overloading with different types of arguments.</b></span>
+        <img src="ex2.png" width="550px">
+        <img src="op2.png">
+    </section>
+    <section id="third">
+        <span style="background-color:#C5E3C7;color: black;font-size: larger;" ><b>Function with default arguments</b></span> 
+        <img src="ex3.png">
+        <div style="background-color: rgb(216, 207, 207);">
+        <span style="color: rgb(7, 5, 1);font-size: larger; width: 500px;">The above example shows an error "call of overloaded 'fun(int)' is ambiguous". The fun(int a, int b=9) can be called in two ways: first is by calling the function with one argument, i.e., fun(12) and another way is calling the function with two arguments, i.e., fun(4,5). The fun(int i) function is invoked with one argument. Therefore, the compiler could not be able to select among fun(int i) and fun(int a,int b=9).</span></div>
+        <section id="fourth">
+        <span style="background-color:#C5E3C7;color: black;font-size: larger;" ><b>Function with pass by reference</b></span>    
+            <img src="ex4.png" width="550px">
+            <div style="background-color: rgb(216, 207, 207);" >
+                <span style="color: rgb(7, 5, 1);font-size: larger;">The above example shows an error "call of overloaded 'fun(int&)' is ambiguous". The first function takes one integer argument and the second function takes a reference parameter as an argument. In this case, the compiler does not know which function is needed by the us</span>
+            </div>
+        </section>
+       
+    </section>
+    
+    
+    
+</body>
+</html>
